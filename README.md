@@ -1,6 +1,4 @@
-# Hii
-
-
+#Hii
 
 
 
@@ -94,9 +92,9 @@ function next(){
 
   if(step === 0){
     c.innerHTML = `
-      <h1>Seju❤️</h1>
+      <h1>Seju ❤️</h1>
       <h2>Mujhe tumse kuch kehna hai...</h2>
-      <button class="yes" onclick="next()">Next</button>
+      <button class="yes" onclick="Haa bolo()">Next</button>
     `;
     step++;
   }
@@ -104,7 +102,7 @@ function next(){
   else if(step === 1){
     c.innerHTML = `
       <h2>Jab bhi tumse baat hoti hai na... 😊</h2>
-      <button class="yes" onclick="next()">Next</button>
+      <button class="yes" onclick="Hmm()">Next</button>
     `;
     step++;
   }
@@ -112,7 +110,7 @@ function next(){
   else if(step === 2){
     c.innerHTML = `
       <h2>Din thoda aur special lagne lagta hai 💖</h2>
-      <button class="yes" onclick="next()">Next</button>
+      <button class="yes" onclick="Hmm()">Next</button>
     `;
     step++;
   }
